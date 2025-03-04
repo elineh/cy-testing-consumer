@@ -9,7 +9,7 @@ import type {
   UpdateMovieResponse
 } from './provider-schema/movie-types'
 
-// Movie type from the provider, in the real world this would come form a published package
+// Movie type from the provider, in the real world this would come from a published package
 export type Movie = {
   id: number
   name: string
@@ -55,7 +55,7 @@ export const getMovieByName = (
   name: string
 ): Promise<GetMovieResponse | MovieNotFoundResponse> =>
   axios
-    .get(`${url}/movies/name=${encodeURIComponent(name)}`, commonHeaders)
+    .get(`${url}/movies?name=${encodeURIComponent(name)}`, commonHeaders)
     .then(yieldData)
     .catch(handleError)
 
@@ -70,7 +70,7 @@ export const addMovie = (
     .catch(handleError)
 
 // Delete movie by ID
-export const deleteMovie = (
+export const deleteMovieById = (
   url: string,
   id: number
 ): Promise<DeleteMovieResponse | MovieNotFoundResponse> => {
