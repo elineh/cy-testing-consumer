@@ -1,6 +1,6 @@
 {
   "uuid": "17f0c9ff-89f9-4682-a07b-47f4efece198",
-  "lastMigration": 32,
+  "lastMigration": 33,
   "name": "provider-mock",
   "endpointPrefix": "",
   "latency": 0,
@@ -9,14 +9,14 @@
   "folders": [],
   "routes": [
     {
-      "uuid": "61df68a0-2169-48dc-80c4-1042b971438d",
+      "uuid": "cefbbd83-dceb-40d9-b96f-b74c9f821f91",
       "type": "http",
       "documentation": "",
       "method": "post",
       "endpoint": "__messages__",
       "responses": [
         {
-          "uuid": "612a5ee1-2f28-4c20-9f6f-9b856cf38deb",
+          "uuid": "e43e58b6-e6a5-4f97-8c73-74b7ff51bab8",
           "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /__messages__</pre>\n</body>\n</html>\n",
           "latency": 0,
           "statusCode": 404,
@@ -48,7 +48,7 @@
             },
             {
               "key": "date",
-              "value": "Fri, 04 Oct 2024 17:37:28 GMT"
+              "value": "Mon, 17 Mar 2025 09:25:09 GMT"
             },
             {
               "key": "vary",
@@ -80,17 +80,19 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
-      "uuid": "95a7a19a-167e-4b44-9389-30e11ccc554e",
+      "uuid": "0506fa82-de3e-45fd-975d-f44676655637",
       "type": "http",
       "documentation": "",
       "method": "get",
       "endpoint": "",
       "responses": [
         {
-          "uuid": "8820d01a-565e-4c36-a8e6-15d0d043c422",
+          "uuid": "7bf7e49f-8143-435e-bfdc-11a6f55f623f",
           "body": "{\n  \"message\": \"Server is running\"\n}",
           "latency": 0,
           "statusCode": 200,
@@ -118,7 +120,7 @@
             },
             {
               "key": "date",
-              "value": "Fri, 04 Oct 2024 17:37:28 GMT"
+              "value": "Mon, 17 Mar 2025 09:25:09 GMT"
             },
             {
               "key": "etag",
@@ -150,17 +152,19 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
-      "uuid": "e6c27c44-7a74-4e02-84ef-5b4bc5c87e81",
+      "uuid": "cca381d0-8af3-430b-97a6-0e26012b5de8",
       "type": "http",
       "documentation": "",
       "method": "get",
       "endpoint": "__messages__",
       "responses": [
         {
-          "uuid": "4c703015-8446-43a7-a1f1-872966e71ebd",
+          "uuid": "09a33107-cc2d-4237-80b6-acbeb5bbc707",
           "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /__messages__</pre>\n</body>\n</html>\n",
           "latency": 0,
           "statusCode": 404,
@@ -192,7 +196,7 @@
             },
             {
               "key": "date",
-              "value": "Fri, 04 Oct 2024 17:37:28 GMT"
+              "value": "Mon, 17 Mar 2025 09:25:09 GMT"
             },
             {
               "key": "vary",
@@ -224,18 +228,20 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
-      "uuid": "f076e69f-22a3-4b73-9798-d38404c97f2c",
+      "uuid": "8c997c65-62bb-44e5-bd40-afae33a04ffd",
       "type": "http",
       "documentation": "",
       "method": "post",
       "endpoint": "movies",
       "responses": [
         {
-          "uuid": "9761b7db-e860-4e9e-b99e-4562c1ca4fc8",
-          "body": "{\n  \"status\": 200,\n  \"data\": {\n    \"id\": 1,\n    \"name\": \"tabella cupressus demitto\",\n    \"year\": 1985,\n    \"rating\": 7.5\n  }\n}",
+          "uuid": "36933c73-a95c-4717-811f-74a4756e0026",
+          "body": "{\n  \"status\": 200,\n  \"data\": {\n    \"id\": 29,\n    \"name\": \"amplus conculco varietas\",\n    \"year\": 2018,\n    \"rating\": 3.9\n  }\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
@@ -262,11 +268,11 @@
             },
             {
               "key": "date",
-              "value": "Fri, 04 Oct 2024 17:37:28 GMT"
+              "value": "Mon, 17 Mar 2025 09:25:09 GMT"
             },
             {
               "key": "etag",
-              "value": "W/\"4d-wMO8rvSG4zdycT2DGCjEHn4tXrQ\""
+              "value": "W/\"5a-C4qmHhy/iHVqh4x/u2SqJeXL1wk\""
             },
             {
               "key": "vary",
@@ -278,7 +284,7 @@
             },
             {
               "key": "content-length",
-              "value": "107"
+              "value": "126"
             }
           ],
           "bodyType": "INLINE",
@@ -294,18 +300,20 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
-      "uuid": "c5380a71-b614-4565-817a-c4f394cd26ff",
+      "uuid": "4b69400d-4179-4d2d-82cd-73b3e7fdac7f",
       "type": "http",
       "documentation": "",
       "method": "get",
       "endpoint": "movies",
       "responses": [
         {
-          "uuid": "2547396b-ba7a-4a77-9344-d0539e20bfdb",
-          "body": "{\n  \"status\": 200,\n  \"data\": [\n    {\n      \"id\": 1,\n      \"name\": \"tabella cupressus demitto\",\n      \"year\": 1985,\n      \"rating\": 7.5\n    }\n  ]\n}",
+          "uuid": "0e424eea-48ea-419c-b22e-d150cc7fdc96",
+          "body": "{\n  \"status\": 200,\n  \"data\": [\n    {\n      \"id\": 1,\n      \"name\": \"ter carbo tibi\",\n      \"year\": 1987,\n      \"rating\": 9.4\n    },\n    {\n      \"id\": 2,\n      \"name\": \"viriliter attonbitus ambulo\",\n      \"year\": 2002,\n      \"rating\": 9\n    },\n    {\n      \"id\": 3,\n      \"name\": \"videlicet spargo dolor\",\n      \"year\": 1997,\n      \"rating\": 6.4\n    },\n    {\n      \"id\": 4,\n      \"name\": \"succurro cultellus terreo\",\n      \"year\": 1999,\n      \"rating\": 8.9\n    },\n    {\n      \"id\": 5,\n      \"name\": \"cuius voluntarius quos\",\n      \"year\": 1978,\n      \"rating\": 9\n    },\n    {\n      \"id\": 6,\n      \"name\": \"summopere surgo armarium\",\n      \"year\": 2004,\n      \"rating\": 7.7\n    },\n    {\n      \"id\": 7,\n      \"name\": \"coerceo caritas assumenda\",\n      \"year\": 2016,\n      \"rating\": 2.4\n    },\n    {\n      \"id\": 8,\n      \"name\": \"urbanus caveo vetus\",\n      \"year\": 1998,\n      \"rating\": 4\n    },\n    {\n      \"id\": 9,\n      \"name\": \"tergum maiores aperio\",\n      \"year\": 2003,\n      \"rating\": 7.8\n    },\n    {\n      \"id\": 10,\n      \"name\": \"tabgo minus templum\",\n      \"year\": 1988,\n      \"rating\": 5.3\n    },\n    {\n      \"id\": 11,\n      \"name\": \"voluptatibus abeo solutio\",\n      \"year\": 1993,\n      \"rating\": 2.9\n    },\n    {\n      \"id\": 12,\n      \"name\": \"turpis colligo defero\",\n      \"year\": 2017,\n      \"rating\": 3.6\n    },\n    {\n      \"id\": 13,\n      \"name\": \"sopor celebrer delibero\",\n      \"year\": 1997,\n      \"rating\": 4.7\n    },\n    {\n      \"id\": 14,\n      \"name\": \"Update Name\",\n      \"year\": 2022,\n      \"rating\": 7.8\n    },\n    {\n      \"id\": 15,\n      \"name\": \"crapula concedo est\",\n      \"year\": 1995,\n      \"rating\": 7.1\n    },\n    {\n      \"id\": 16,\n      \"name\": \"Update Name\",\n      \"year\": 2022,\n      \"rating\": 8.8\n    },\n    {\n      \"id\": 17,\n      \"name\": \"Updated Name\",\n      \"year\": 2022,\n      \"rating\": 7.6\n    },\n    {\n      \"id\": 29,\n      \"name\": \"amplus conculco varietas\",\n      \"year\": 2018,\n      \"rating\": 3.9\n    }\n  ]\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
@@ -332,11 +340,11 @@
             },
             {
               "key": "date",
-              "value": "Fri, 04 Oct 2024 17:37:29 GMT"
+              "value": "Mon, 17 Mar 2025 09:25:09 GMT"
             },
             {
               "key": "etag",
-              "value": "W/\"4f-SBXhLaYTuG0IWhhviMFJMjt96UA\""
+              "value": "W/\"49e-D6CLUiFm2BFD2PW5EUpVukXZPsQ\""
             },
             {
               "key": "vary",
@@ -348,7 +356,7 @@
             },
             {
               "key": "content-length",
-              "value": "125"
+              "value": "1950"
             }
           ],
           "bodyType": "INLINE",
@@ -364,8 +372,8 @@
           "callbacks": []
         },
         {
-          "uuid": "38f35f4b-8dae-42e0-9975-bec2823df3a4",
-          "body": "{\n  \"status\": 200,\n  \"data\": {\n    \"id\": 1,\n    \"name\": \"tabella cupressus demitto\",\n    \"year\": 1985,\n    \"rating\": 7.5\n  }\n}",
+          "uuid": "06a9889e-e7cc-4bcf-a4ce-78dc40e409b8",
+          "body": "{\n  \"status\": 200,\n  \"data\": {\n    \"id\": 29,\n    \"name\": \"amplus conculco varietas\",\n    \"year\": 2018,\n    \"rating\": 3.9\n  }\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
@@ -391,18 +399,20 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
-      "uuid": "cc4905c4-5029-4a00-8cc5-6cc8c9f98190",
+      "uuid": "906001fc-5bf3-4dc1-8a38-8666512cb70f",
       "type": "http",
       "documentation": "",
       "method": "get",
-      "endpoint": "movies/1",
+      "endpoint": "movies/29",
       "responses": [
         {
-          "uuid": "87ad459d-4144-4e5a-bea4-2f62c5661eae",
-          "body": "{\n  \"status\": 200,\n  \"data\": {\n    \"id\": 1,\n    \"name\": \"tabella cupressus demitto\",\n    \"year\": 1985,\n    \"rating\": 7.5\n  }\n}",
+          "uuid": "15ef5b66-3e91-486a-923c-9e47b924852c",
+          "body": "{\n  \"status\": 200,\n  \"data\": {\n    \"id\": 29,\n    \"name\": \"amplus conculco varietas\",\n    \"year\": 2018,\n    \"rating\": 3.9\n  }\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
@@ -429,11 +439,11 @@
             },
             {
               "key": "date",
-              "value": "Fri, 04 Oct 2024 17:37:29 GMT"
+              "value": "Mon, 17 Mar 2025 09:25:09 GMT"
             },
             {
               "key": "etag",
-              "value": "W/\"4d-wMO8rvSG4zdycT2DGCjEHn4tXrQ\""
+              "value": "W/\"5a-C4qmHhy/iHVqh4x/u2SqJeXL1wk\""
             },
             {
               "key": "vary",
@@ -445,7 +455,7 @@
             },
             {
               "key": "content-length",
-              "value": "107"
+              "value": "126"
             }
           ],
           "bodyType": "INLINE",
@@ -461,18 +471,20 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
-      "uuid": "280bf17c-bfb7-44d3-b8ea-6ae59898dfc7",
+      "uuid": "f46adef2-6915-47cb-98ed-2574d512068f",
       "type": "http",
       "documentation": "",
       "method": "put",
-      "endpoint": "movies/1",
+      "endpoint": "movies/29",
       "responses": [
         {
-          "uuid": "65729f6d-ab7c-4f86-88a5-63345e52511d",
-          "body": "{\n  \"status\": 200,\n  \"data\": {\n    \"id\": 1,\n    \"name\": \"Updated Name\",\n    \"year\": 2000,\n    \"rating\": 7.5\n  }\n}",
+          "uuid": "75a785a5-6108-4b9b-9241-4025defab94a",
+          "body": "{\n  \"status\": 200,\n  \"data\": {\n    \"id\": 29,\n    \"name\": \"Updated Name\",\n    \"year\": 2022,\n    \"rating\": 3.9\n  }\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
@@ -499,11 +511,11 @@
             },
             {
               "key": "date",
-              "value": "Fri, 04 Oct 2024 17:37:29 GMT"
+              "value": "Mon, 17 Mar 2025 09:25:09 GMT"
             },
             {
               "key": "etag",
-              "value": "W/\"40-5NiXOKqCdtC/yP+lpVxnV6TA31s\""
+              "value": "W/\"4e-LOOMLHexX6c3n/cODhbQcWYli+c\""
             },
             {
               "key": "vary",
@@ -515,7 +527,7 @@
             },
             {
               "key": "content-length",
-              "value": "94"
+              "value": "114"
             }
           ],
           "bodyType": "INLINE",
@@ -531,18 +543,20 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     },
     {
-      "uuid": "67ba0d87-21ba-452b-a91d-eb2a328b028e",
+      "uuid": "4b3db6c7-6338-41a7-88f6-2f9105d59e4d",
       "type": "http",
       "documentation": "",
       "method": "delete",
-      "endpoint": "movies/1",
+      "endpoint": "movies/29",
       "responses": [
         {
-          "uuid": "fd457393-38ad-4950-9dd8-9c3f00a1328d",
-          "body": "{\n  \"status\": 200,\n  \"message\": \"Movie 1 has been deleted\"\n}",
+          "uuid": "c70ca3d2-0a89-42e5-bb46-d48aa319682a",
+          "body": "{\n  \"status\": 200,\n  \"message\": \"Movie 29 has been deleted\"\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
@@ -569,11 +583,11 @@
             },
             {
               "key": "date",
-              "value": "Fri, 04 Oct 2024 17:37:29 GMT"
+              "value": "Mon, 17 Mar 2025 09:25:09 GMT"
             },
             {
               "key": "etag",
-              "value": "W/\"33-eNU6TdGHHsflo/gTHPlveah4YyQ\""
+              "value": "W/\"34-1wjA+eQr+XeVd/yko3ptvFv9ZQI\""
             },
             {
               "key": "vary",
@@ -585,7 +599,7 @@
             },
             {
               "key": "content-length",
-              "value": "60"
+              "value": "61"
             }
           ],
           "bodyType": "INLINE",
@@ -601,45 +615,47 @@
           "callbacks": []
         }
       ],
-      "responseMode": null
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
     }
   ],
   "rootChildren": [
     {
       "type": "route",
-      "uuid": "61df68a0-2169-48dc-80c4-1042b971438d"
+      "uuid": "cefbbd83-dceb-40d9-b96f-b74c9f821f91"
     },
     {
       "type": "route",
-      "uuid": "95a7a19a-167e-4b44-9389-30e11ccc554e"
+      "uuid": "0506fa82-de3e-45fd-975d-f44676655637"
     },
     {
       "type": "route",
-      "uuid": "e6c27c44-7a74-4e02-84ef-5b4bc5c87e81"
+      "uuid": "cca381d0-8af3-430b-97a6-0e26012b5de8"
     },
     {
       "type": "route",
-      "uuid": "f076e69f-22a3-4b73-9798-d38404c97f2c"
+      "uuid": "8c997c65-62bb-44e5-bd40-afae33a04ffd"
     },
     {
       "type": "route",
-      "uuid": "c5380a71-b614-4565-817a-c4f394cd26ff"
+      "uuid": "4b69400d-4179-4d2d-82cd-73b3e7fdac7f"
     },
     {
       "type": "route",
-      "uuid": "cc4905c4-5029-4a00-8cc5-6cc8c9f98190"
+      "uuid": "906001fc-5bf3-4dc1-8a38-8666512cb70f"
     },
     {
       "type": "route",
-      "uuid": "280bf17c-bfb7-44d3-b8ea-6ae59898dfc7"
+      "uuid": "f46adef2-6915-47cb-98ed-2574d512068f"
     },
     {
       "type": "route",
-      "uuid": "67ba0d87-21ba-452b-a91d-eb2a328b028e"
+      "uuid": "4b3db6c7-6338-41a7-88f6-2f9105d59e4d"
     }
   ],
   "proxyMode": false,
-  "proxyHost": "http://localhost:3002",
+  "proxyHost": "http://localhost:3001",
   "proxyRemovePrefix": false,
   "tlsOptions": {
     "enabled": false,
