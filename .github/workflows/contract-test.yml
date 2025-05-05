@@ -47,3 +47,7 @@ jobs:
       - name: Record web consumer deployment
         if: github.ref == 'refs/heads/main'
         run: npm run record:consumer:deployment --env=dev
+
+        # trigger
+        # a new workflow is triggered on the provider
+        # which deploys the provider to a staging environment
