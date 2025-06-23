@@ -24,3 +24,6 @@ npm-debug.log*
 
 # Pact
 pacts
+
+# for checking kafka events
+cypress/movie-events.log
