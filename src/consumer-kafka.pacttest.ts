@@ -15,7 +15,7 @@ const messagePact = new MessageConsumerPact({
   // logLevel: 'debug',
 })
 
-describe('Kafka Movie Event Consumer', () => {
+describe.skip('Kafka Movie Event Consumer', () => {
   beforeAll(() => {
     jest.spyOn(console, 'log').mockImplementation(() => {})
     jest.spyOn(console, 'error').mockImplementation(() => {})

@@ -32,8 +32,8 @@ const pact = new PactV4({
   provider: 'MoviesAPI'
 })
 
-describe.skip('Movies API', () => {
-  describe.skip('When a GET request is made to /movies', () => {
+describe('Movies API', () => {
+  describe('When a GET request is made to /movies', () => {
     it('should return all movies', async () => {
       const EXPECTED_BODY: Movie = {
         id: 1,
@@ -129,7 +129,7 @@ describe.skip('Movies API', () => {
     })
   })
 
-  describe.skip('When a GET request is made to a specific movie ID', () => {
+  describe('When a GET request is made to a specific movie ID', () => {
     it('should return a specific movie', async () => {
       const testId = 100
       const EXPECTED_BODY: Movie = {
@@ -172,7 +172,7 @@ describe.skip('Movies API', () => {
     })
   })
 
-  describe.skip('When a POST request is made to /movies', () => {
+  describe('When a POST request is made to /movies', () => {
     it('should add a new movie', async () => {
       const movie: Omit<Movie, 'id'> = {
         name: 'The Matrix',
@@ -240,7 +240,7 @@ describe.skip('Movies API', () => {
         })
     })
 
-    describe.skip('When a PUT request is made to a specific movie ID', () => {
+    describe('When a PUT request is made to a specific movie ID', () => {
       it('should update an existing movie', async () => {
         const testId = 99
         const updatedMovieData = {
@@ -294,7 +294,7 @@ describe.skip('Movies API', () => {
           })
       })
 
-      describe.skip('When a DELETE request is made to /movies', () => {
+      describe('When a DELETE request is made to /movies', () => {
         it('should delete an existing movie successfully', async () => {
           const testId = 100
           const message = `Movie ${testId} has been deleted`
