@@ -49,9 +49,9 @@ export const consumeMovieEvents = async () => {
     await consumer.connect()
     console.log('Connected to Kafka successfully \n')
 
-    await consumer.subscribe({ topic: 'movie-created', fromBeginning: false })
-    await consumer.subscribe({ topic: 'movie-updated', fromBeginning: false })
-    await consumer.subscribe({ topic: 'movie-deleted', fromBeginning: false })
+    await consumer.subscribe({ topic: 'movie-created', fromBeginning: true })
+    await consumer.subscribe({ topic: 'movie-updated', fromBeginning: true })
+    await consumer.subscribe({ topic: 'movie-deleted', fromBeginning: true })
 
     await consumer.run({
       eachMessage: async ({ topic, partition, message }) => {

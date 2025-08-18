@@ -20,10 +20,10 @@ pact-broker can-i-deploy \
     --verbose
 
 # Check if WebConsumer-event-consumer can be deployed
-# pact-broker can-i-deploy \
-#     --pacticipant WebConsumer-event-consumer \
-#     --version=$GITHUB_SHA \
-#     --to-environment dev \
-#     --retry-while-unknown=$RETRY_WHILE_UNKNOWN \
-#     --retry-interval=$RETRY_INTERVAL \
-#     --verbose
+pact-broker can-i-deploy \
+    --pacticipant WebConsumer-event-consumer \
+    --version=$GITHUB_SHA \
+    --to-environment dev \
+    --retry-while-unknown=$RETRY_WHILE_UNKNOWN \
+    --retry-interval=$RETRY_INTERVAL \
+    --verbose
