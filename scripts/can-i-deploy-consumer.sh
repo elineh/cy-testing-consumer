@@ -14,7 +14,7 @@ RETRY_INTERVAL=30       # Seconds between retries
 pact-broker can-i-deploy \
     --pacticipant WebConsumer \
     --version=$GITHUB_SHA \
-    --to-environment dev \
+    --to-environment test \
     --retry-while-unknown=$RETRY_WHILE_UNKNOWN \
     --retry-interval=$RETRY_INTERVAL \
     --verbose
@@ -23,7 +23,7 @@ pact-broker can-i-deploy \
 pact-broker can-i-deploy \
     --pacticipant WebConsumer-event-consumer \
     --version=$GITHUB_SHA \
-    --to-environment dev \
+    --to-environment test \
     --retry-while-unknown=$RETRY_WHILE_UNKNOWN \
     --retry-interval=$RETRY_INTERVAL \
     --verbose
