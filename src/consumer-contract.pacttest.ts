@@ -33,7 +33,7 @@ const pact = new PactV4({
 })
 
 describe('Movies API', () => {
-  describe('When a GET request is made to /movies', () => {
+  describe('When a GET request is made to /movies (test run trigger)', () => {
     it('should return all movies', async () => {
       const EXPECTED_BODY: Movie = {
         id: 1,
