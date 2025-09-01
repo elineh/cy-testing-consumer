@@ -42,7 +42,7 @@ describe('Kafka Movie Event Consumer', () => {
   it('should receive a movie-created event from Kafka', async () => {
     await messagePact
       .given('No movies exist')
-      .expectsToReceive('a movie-created event')
+      .expectsToReceive('a movie-created event (test run)')
       .withContent({
         topic: term({ generate: 'movie-created', matcher }),
         messages
