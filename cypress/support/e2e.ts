@@ -1,6 +1,7 @@
 import './commands'
 import 'cypress-map'
 import '@bahmutov/cy-api'
+import 'cy-spok'
 import type { Movie } from '../../src/consumer'
 
 const apiUrl = Cypress.config('baseUrl') || 'http://localhost:3001'
