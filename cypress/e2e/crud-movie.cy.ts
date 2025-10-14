@@ -1,7 +1,7 @@
 import type { Movie } from '../../src/consumer'
 import { generateMovie } from '../support/factories'
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-import spok = require('cy-spok')
+const spok = require('cy-spok')
 import { retryableBefore } from 'cy-retryable-before'
 
 describe('CRUD movie', () => {
