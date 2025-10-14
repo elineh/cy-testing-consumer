@@ -2,7 +2,8 @@ import '@cypress/skip-test/support'
 
 import type { Movie } from '../../src/consumer'
 import { generateMovie } from '../support/factories'
-import spok from 'cy-spok'
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+import spok = require('cy-spok')
 import { retryableBefore } from '../support/retryable-before'
 import { parseKafkaEvent } from '../support/parse-kafka-events'
 import { recurse } from 'cypress-recurse'
