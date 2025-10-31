@@ -34,7 +34,7 @@
     "@pact-foundation/pact-cli": "^16.0.7",
     "@types/jest": "29.5.14",
     "@types/lodash": "4.17.20",
-    "@types/node": "22.18.13",
+    "@types/node": "24.9.2",
     "@typescript-eslint/eslint-plugin": "8.46.2",
     "@typescript-eslint/parser": "8.46.2",
     "cy-retryable-before": "^1.0.2",
