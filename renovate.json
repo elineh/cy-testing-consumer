@@ -4,7 +4,7 @@
   "rebaseWhen": "conflicted",
   "prHourlyLimit": 2,
   "updateNotScheduled": false,
-  "schedule": ["after 10pm and before 5am on every weekday", "every weekend"],
+  "schedule": ["before 5am on sunday"],
   "masterIssue": true,
   "labels": ["type: dependencies", "renovate"],
   "dependencyDashboardApproval": false,
