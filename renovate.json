@@ -1,11 +1,11 @@
 {
-  "extends": ["config:base"],
+  "extends": ["config:recommended"],
   "automerge": true,
   "rebaseWhen": "conflicted",
   "prHourlyLimit": 2,
   "updateNotScheduled": false,
   "schedule": ["before 5am on sunday"],
-  "masterIssue": true,
+  "dependencyDashboard": true,
   "labels": ["type: dependencies", "renovate"],
   "dependencyDashboardApproval": false,
   "packageRules": [
