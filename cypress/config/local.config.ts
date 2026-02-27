@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 import { defineConfig } from 'cypress'
 import { baseConfig } from './base.config'
 import path from 'node:path'
