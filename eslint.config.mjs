@@ -1,6 +1,7 @@
 import js from '@eslint/js'
 import { configs, parser } from 'typescript-eslint'
 import { importX } from 'eslint-plugin-import-x'
+import prettierRecommended from 'eslint-plugin-prettier/recommended'
 import cypress from 'eslint-plugin-cypress'
 import filenamesPlugin from 'eslint-plugin-filenames'
 import implicitDependencies from 'eslint-plugin-implicit-dependencies'
