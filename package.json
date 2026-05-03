@@ -45,7 +45,7 @@
     "cypress-map": "1.56.0",
     "cypress-recurse": "^1.35.3",
     "dotenv": "16.6.1",
-    "eslint": "^9.39.3",
+    "eslint": "^10.0.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "3.10.1",
     "eslint-plugin-cypress": "^6.1.0",
